@@ -12,7 +12,7 @@ width: 100%;
 
 .background
 {
-    background-color: #ffffff;
+    background-color: #726255;
 }
 
 .navLeftStyle
@@ -43,8 +43,6 @@ width: 100%;
     float: right;
     height:100%;
     width: 5%;
-    /* margin-top: 0px; */
-    /* margin-left: 10px; */
     margin-right: 0px;
     background-color: #372e29;
     color: whitesmoke;
@@ -76,7 +74,6 @@ width: 100%;
 {
     height: 25%;
     border-block-end: 2px solid black;
-
 }
 .liBack
 {
@@ -95,7 +92,6 @@ width: 100%;
 {
     height: 25%;
     border-block-start: 2px solid black;
-
 }
 
 .placeNavRight
@@ -105,9 +101,7 @@ width: 100%;
     list-style:none;
     float: right;
     height:100%;
-    width: 1%;
-    /* margin-top: 0px; */
-    /* margin-left: 10px; */
+    width: 18px;
     margin-right: 0px;
     background-color: #372e29;
     color: whitesmoke;
@@ -117,9 +111,7 @@ width: 100%;
 {
     list-style:none;
     height:100%;
-    width: 1%;
-    /* margin-top: -64px; */
-    /* margin-left: 10px; */
+    width: 18px;
     background-color: #372e29;
     color: whitesmoke;
     position: fixed;

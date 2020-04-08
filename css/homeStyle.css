@@ -35,7 +35,6 @@ section div p
     text-align: center;
 }
 
-
 .logo
 {
     /* background-image: url(../images/cobol.jpg);
@@ -46,14 +45,14 @@ section div p
 
 .navHomeStyle
 {
+    position: fixed;
     list-style:none;
     height:100%;
     width: 16%;
-    margin-top: -64px;
-    margin-left: 10px;
+    top: 0px;
+    left: 16px;
     background-color: #372e29;
     color: whitesmoke;
-    position: fixed;
 }
 
 .liStyle
