@@ -1,0 +1,151 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.page0
+{
+height: 100%;
+width: 100%;
+}
+
+.background
+{
+    background-color: #ffffff;
+}
+
+.navLeftStyle
+{
+    list-style:none;
+    height:100%;
+    width: 5%;
+    /* margin-top: -64px; */
+    /* margin-left: 10px; */
+    background-color: #372e29;
+    color: whitesmoke;
+    position: fixed;
+    opacity: .0;
+}
+
+.navLeftStyle:hover
+{
+    opacity: 1;
+
+}
+
+.navRightStyle
+{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    list-style:none;
+    float: right;
+    height:100%;
+    width: 5%;
+    /* margin-top: 0px; */
+    /* margin-left: 10px; */
+    margin-right: 0px;
+    background-color: #372e29;
+    color: whitesmoke;
+    position: fixed;
+    opacity: .0 ;
+}
+
+.navRightStyle:hover
+{
+    opacity: 1;
+
+}
+
+.liStyle
+{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+.liStyle:hover
+{
+    background-color:  #726255;
+    color: #F5F5F5;
+}
+.liHome
+{
+    height: 25%;
+    border-block-end: 2px solid black;
+
+}
+.liBack
+{
+    height: 75%;
+    border-block-start: black 2px solid;
+
+}
+
+.liNext
+{
+    height: 75%;
+    border-block-end: black 2px solid;
+}
+
+.liEnd
+{
+    height: 25%;
+    border-block-start: 2px solid black;
+
+}
+
+.placeNavRight
+{
+    top: 0px;
+    right: 0px;
+    list-style:none;
+    float: right;
+    height:100%;
+    width: 1%;
+    /* margin-top: 0px; */
+    /* margin-left: 10px; */
+    margin-right: 0px;
+    background-color: #372e29;
+    color: whitesmoke;
+    position: fixed;
+}
+.placeNavLeft
+{
+    list-style:none;
+    height:100%;
+    width: 1%;
+    /* margin-top: -64px; */
+    /* margin-left: 10px; */
+    background-color: #372e29;
+    color: whitesmoke;
+    position: fixed;
+}
+
+section
+{
+    position: absolute;
+    height: 90%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+
+}
+
+section div h2
+{
+    color: whitesmoke;
+    font-size: 60px;
+}
+section div ul
+{
+    color: whitesmoke;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+

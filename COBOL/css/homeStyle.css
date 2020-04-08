@@ -1,0 +1,75 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+    background-color:#726255;
+}
+
+.font
+{
+
+}
+
+Section
+{
+    height: 90%;
+    margin-left: 20%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+section div h1
+{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 220px;
+}
+section div p
+{
+    color: honeydew;
+    font-size: 50px;
+    text-align: center;
+}
+
+
+.logo
+{
+    /* background-image: url(../images/cobol.jpg);
+    background-repeat: no-repeat;
+    background-position: center; */
+
+}
+
+.navHomeStyle
+{
+    list-style:none;
+    height:100%;
+    width: 16%;
+    margin-top: -64px;
+    margin-left: 10px;
+    background-color: #372e29;
+    color: whitesmoke;
+    position: fixed;
+}
+
+.liStyle
+{
+    height: 25%;
+    width: 100%;
+    text-align: center;
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+.liStyle:hover
+{
+    background-color:#726255;
+    color: #F5F5F5;
+}
+
